@@ -3,14 +3,21 @@ div {
 }
 ul {
 	list-style-type: none;
-	color: #D8D8D8;
 	float: top;
-	background-color: #2E2E2E;
+	background-color: #101010;
 	position: fixed;
 	top: -25px;
 	left: 0px;
 	width: 100%;
 	height: 70px;
+}
+.twitter-timeline {
+	float: right;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #2B2B2B;
 }
 a {
 	text-decoration: none;
@@ -21,28 +28,42 @@ li {
 	float: left;
 }
 a.navbar {
-	background-color: #2E2E2E;
-	color: #D8D8D8;
+	background-color: #101010;
+	color: #BBBBBB;
 	height: 35px;
 	display: block;
-	width: 115px;
+	width: 130px;
 	padding: 5px;
 	margin-top: 25px;
 	text-align: center;
 }
 a.navbarSel {
 	display: block;
-	width: 115px;
+	width: 130px;
 	padding: 5px;
 	text-align: center;
 	margin-top: 10px;
 	height: 50px;
-	background-color: #3E3E3E;
-	color: #E8E8E8;
+	background-color: #000000;
+	color: #EEEEEE;
 }
 a.navbar:hover {
 	margin-top: 10px;
 	height: 50px;
-	background-color: #3E3E3E;
-	color: #E8E8E8;
+	background-color: #000000;
+	color: #EEEEEE;
+}
+div.article {
+	position: relative;
+    vertical-align: top;
+	display: table-cell;
+	word-wrap: break-word;
+	z-index: -2;
+}
+#faq {
+	width: 75%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #2B2B2B;
 }
